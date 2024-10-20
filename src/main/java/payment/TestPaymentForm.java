@@ -20,6 +20,7 @@ public class TestPaymentForm extends JFrame {
 
         // style modal border
         ModalDialog.getDefaultOption()
+                .getBorderOption()
                 .setBorderWidth(0.5f);
 
         JButton button = new JButton("Show");

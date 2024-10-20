@@ -6,10 +6,13 @@ Sample project build using java swing with flatlaf and miglayout.
 <img src="https://github.com/DJ-Raven/flatlaf-sample-ui-design/blob/main/screenshot/payment.jpg" alt="sample payment"/>
 
 ### Database Plan Form
-<img src="https://github.com/DJ-Raven/flatlaf-sample-ui-design/blob/main/screenshot/database_plan.jpg" alt="sample payment"/>
+<img src="https://github.com/DJ-Raven/flatlaf-sample-ui-design/blob/main/screenshot/database_plan.jpg" alt="sample data plan"/>
 
 ### Login Form
-<img src="https://github.com/DJ-Raven/flatlaf-sample-ui-design/blob/main/screenshot/login.jpg" alt="sample payment"/>
+<img src="https://github.com/DJ-Raven/flatlaf-sample-ui-design/blob/main/screenshot/login.jpg" alt="sample login"/>
+
+### Login Register Form
+<img src="https://github.com/DJ-Raven/flatlaf-sample-ui-design/blob/main/screenshot/login_register.jpg" alt="sample login register"/>
 
 ## Library Resources
 - [FlatLaf](https://github.com/JFormDesigner/FlatLaf) - FlatLaf library for the modern UI design theme

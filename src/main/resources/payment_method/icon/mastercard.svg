@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" height="24">
+  <linearGradient id="NgmlaCv2fU27PJOuiUvQVa" x1="20.375" x2="28.748" y1="1365.061" y2="1394.946" gradientTransform="translate(0 -1354)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#00b3ee" />
+    <stop offset="1" stop-color="#0082d8" />
+  </linearGradient>
+  <path fill="url(#NgmlaCv2fU27PJOuiUvQVa)" d="M43.125,9H4.875C3.287,9,2,10.287,2,11.875v24.25C2,37.713,3.287,39,4.875,39h38.25C44.713,39,46,37.713,46,36.125v-24.25C46,10.287,44.713,9,43.125,9z" />
+  <circle cx="17.053" cy="24.053" r="10.053" fill="#cf1928" />
+  <linearGradient id="NgmlaCv2fU27PJOuiUvQVb" x1="20" x2="40.107" y1="24.053" y2="24.053" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <circle cx="30.053" cy="24.053" r="10.053" fill="url(#NgmlaCv2fU27PJOuiUvQVb)" />
+  <path fill="#d97218" d="M20,24.053c0,3.072,1.382,5.818,3.553,7.662c2.172-1.844,3.553-4.59,3.553-7.662s-1.382-5.818-3.553-7.662C21.382,18.235,20,20.981,20,24.053z" />
+</svg>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" height="24">
+  <linearGradient id="~KJ2hnb4GR~0TcFV~AS13a" x1="20.375" x2="28.748" y1="11.061" y2="40.946" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#~KJ2hnb4GR~0TcFV~AS13a)" d="M43.125,9H4.875C3.287,9,2,10.287,2,11.875v24.25C2,37.713,3.287,39,4.875,39h38.25C44.713,39,46,37.713,46,36.125v-24.25C46,10.287,44.713,9,43.125,9z" />
+  <linearGradient id="~KJ2hnb4GR~0TcFV~AS13b" x1="2" x2="46" y1="16" y2="16" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#45494d" />
+    <stop offset="1" stop-color="#6d7479" />
+  </linearGradient>
+  <rect width="44" height="4" x="2" y="14" fill="url(#~KJ2hnb4GR~0TcFV~AS13b)" />
+  <path fill="#a8e7ff" d="M42,24H6c-0.552,0-1-0.448-1-1v-2c0-0.552,0.448-1,1-1h36c0.552,0,1,0.448,1,1v2C43,23.552,42.552,24,42,24z" />
+</svg>

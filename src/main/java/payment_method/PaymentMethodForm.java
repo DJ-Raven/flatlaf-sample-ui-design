@@ -9,6 +9,7 @@ import raven.modal.ModalDialog;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.function.Consumer;
 
 public class PaymentMethodForm extends JPanel {
 
@@ -56,9 +57,9 @@ public class PaymentMethodForm extends JPanel {
         panel.add(createNewButton(), "gapy 5 5,grow 0,al center");
 
         // create sample card item
-        addCard(new CardData("8965632458777", "10/24", "Dara", false, CardType.VISA), getLastIndex());
-        addCard(new CardData("8965632458777", "10/24", "Dara", false, CardType.MASTER), getLastIndex());
-        addCard(new CardData("8965632458777", "10/24", "Dara", false, CardType.OTHER), getLastIndex());
+        addCard(new CardData("8965632458777", "10/24 222", "Dara", false, CardType.VISA), getLastIndex());
+        addCard(new CardData("8965632458777", "10/24 222", "Dara", false, CardType.MASTER), getLastIndex());
+        addCard(new CardData("8965632458777", "10/24 222", "Dara", false, CardType.OTHER), getLastIndex());
 
         return panel;
     }
@@ -99,8 +100,26 @@ public class PaymentMethodForm extends JPanel {
     }
 
     private void createCard(CardData data, int index) {
+        Consumer<CardData> onCreate = cardData -> {
+            if (index == -1) {
+                // add new
+                addCard(cardData, getLastIndex());
+            } else {
+                // edit
+                panelCard.remove(index);
+                addCard(cardData, index);
+            }
+        };
+
+        Consumer onDelete = object -> {
+            panelCard.remove(index);
+            panelCard.repaint();
+            panelCard.revalidate();
+            scrollPane.setVisible(panelCard.getComponentCount() != 0);
+        };
+
         String icon = "payment_method/icon/wallet.svg";
         String title = data == null ? "Add card" : "Edit card";
-        ModalDialog.pushModal(new CustomSimpleModalBorder(new CreateCard(data, null, null), title, icon), PaymentMethodForm.ID);
+        ModalDialog.pushModal(new CustomSimpleModalBorder(new CreateCard(data, onCreate, onDelete), title, icon), PaymentMethodForm.ID);
     }
 }
